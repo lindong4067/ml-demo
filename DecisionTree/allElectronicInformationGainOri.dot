@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="X[0] <= 0.5\nentropy = 0.943\nsamples = 14\nvalue = [[10, 4]\n[9, 5]\n[9, 5]\n[8, 6]\n[6, 8]\n[10, 4]\n[10, 4]\n[8, 6]\n[7, 7]\n[7, 7]]"] ;
+1 [label="entropy = 0.799\nsamples = 5\nvalue = [[5, 0]\n[3, 2]\n[2, 3]\n[2, 3]\n[3, 2]\n[3, 2]\n[4, 1]\n[3, 2]\n[1, 4]\n[4, 1]]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="entropy = 0.902\nsamples = 9\nvalue = [[5, 4]\n[6, 3]\n[7, 2]\n[6, 3]\n[3, 6]\n[7, 2]\n[6, 3]\n[5, 4]\n[6, 3]\n[3, 6]]"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
